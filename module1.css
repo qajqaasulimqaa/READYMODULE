@@ -1,0 +1,115 @@
+a{
+    text-decoration: none;
+    color:black; 
+}
+.nav-list :hover{
+    color:rgb(234, 147, 1);
+}
+
+body{
+    margin-top: 10px;
+    margin-right: 60px; 
+    margin-left: 60px;
+}
+.white-oval{
+    position: absolute;
+    left: 30px; 
+    top: 0px; 
+    border-radius: 60%;
+    width: 300px; 
+    height: 156px;
+    z-index: 1; 
+    background-color: rgb(255, 255, 255); 
+}
+.nav-bar{
+    display: flex; 
+    flex-direction: row;
+    justify-content: space-between; 
+    gap: 30px; 
+}
+.logo{
+    z-index: 2; 
+    font-family:"Jaro"; 
+    font-size: 64px;
+    display: flex;
+}
+.logo2{
+    position: absolute; 
+    font-size: 36px; 
+    top: 30px; 
+    left: 90px; 
+}
+.nav-list{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px; 
+    font-family: "Gurajada";
+    font-size: 48px; 
+}
+.hero{
+    position: relative; 
+}
+.hero-picture{
+    display: block; 
+    width: 90vw;  
+    height: 60vw; 
+    top: 20px;
+    opacity: 0.8; 
+}
+.hero-title{
+    position: absolute;
+    font-family: "Gurajada";
+    font-size: 96px;
+    margin-left: 25vw;
+    top: 200px; 
+}
+.hero-subtitle{
+    position: absolute; 
+    font-family: "Gurajada";
+    font-size: 50px;
+    margin-left: 30vw;
+    top: 350px; 
+    
+}
+.menu-button{
+    border-radius:  50%; 
+    background-color: rgba(234, 149, 1, 0.781);
+    width: 100px;
+    height:100px; 
+    border: none;
+    position: absolute;
+    font-size: 40px; 
+    font-family: "Gurajada";
+    margin-left: 40vw;
+    top: 500px; 
+
+}
+.menu-button:hover{
+    background-color:rgb(173, 139, 75);
+    transition: 0.3s ease-in;
+}
+.quote p{
+    font-family: "Gurajada";
+    font-style: italic;
+    font-size: 60px;
+    display: flex; 
+    justify-content: center;
+}
+.quote-author p{
+    text-decoration: none;
+    font-size: 30px; 
+    align-self: flex-end;
+}
+.menu-footer{
+    text-decoration: none;
+}
+.rows{
+    text-decoration: none;
+    font-size: 30px; 
+    font-family: "Gurajada"; 
+    display: flex; 
+    flex-direction: row; 
+    justify-content: center;
+    gap: 100px;
+    background-color:rgb(173, 139, 75);
+}
