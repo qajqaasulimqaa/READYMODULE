@@ -2,15 +2,13 @@ a{
     text-decoration: none;
     color:black; 
 }
-.nav-list :hover{
-    color:rgb(234, 147, 1);
-}
-
+/* Main layout*/
 body{
     margin-top: 10px;
     margin-right: 60px; 
     margin-left: 60px;
 }
+/* Navigation bar styling */
 .white-oval{
     position: absolute;
     left: 30px; 
@@ -46,6 +44,11 @@ body{
     font-family: "Gurajada";
     font-size: 48px; 
 }
+.nav-list :hover{
+    color:rgb(234, 147, 1);
+}
+
+/* Main content area*/
 .hero{
     position: relative; 
 }
@@ -88,6 +91,8 @@ body{
     background-color:rgb(173, 139, 75);
     transition: 0.3s ease-in;
 }
+
+/* Quote under main hero*/
 .quote p{
     font-family: "Gurajada";
     font-style: italic;
@@ -100,6 +105,7 @@ body{
     font-size: 30px; 
     align-self: flex-end;
 }
+/*Footer styling */
 .menu-footer{
     text-decoration: none;
 }
